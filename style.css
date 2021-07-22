@@ -1,14 +1,72 @@
-
 /* Header Styles */
-header{
-    height: 100vh;
+
+header {
+    
 }
 
-.name{
+.name {
     font-family: 'Kaushan Script', cursive;
-    height: 70vh;
+    height: 65vh;
 }
 
-.name h1{
+.name h1 {
     font-size: 120px;
+}
+
+.title {}
+
+.social-media {
+    list-style: none;
+}
+
+.social-media li a {
+    color: black;
+}
+
+.navbar-center {
+    margin: auto;
+}
+
+.nav-border {
+    border-bottom: 2px solid black;
+}
+
+#about_me{
+
+}
+
+.about-me-text a{
+    color: black;
+}
+
+.profile-pic img{
+    width: 100%;
+    
+}
+
+hr{
+    height: 1px;
+    margin: 0 90px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 992px) {
+    .name h1 {
+        font-size: 90px;
+    }
+    .title {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .name {
+        height: 60vh;
+    }
+    .name h1 {
+        font-size: 70px;
+    }
+    .title {
+        font-size: 16px;
+    }
 }
