@@ -1,0 +1,14 @@
+
+/* Header Styles */
+header{
+    height: 100vh;
+}
+
+.name{
+    font-family: 'Kaushan Script', cursive;
+    height: 70vh;
+}
+
+.name h1{
+    font-size: 120px;
+}
