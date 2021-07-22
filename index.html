@@ -53,23 +53,21 @@
                         <a class="nav-link" style="color: black;" href="#about_me">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link px-3 dropdown-toggle" style="color: black;" href="#projects"
-                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
+                        <a class="nav-link px-3 dropdown-toggle" style="color: black;" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Projects
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#apple_clone">Apple Clone</a>
+                            <a class="dropdown-item" href="#newsweek_clone">Newsweek Clone</a>
+                            <a class="dropdown-item" href="#airbnb_clone">Airbnb News Clone</a>
                         </div>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" style="color: black;" href="#">Resume</a>
+                        <a class="nav-link" style="color: black;" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" style="color: black;" href="#">Contact Me</a>
+                        <a class="nav-link" style="color: black;" href="#contact_me">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +76,7 @@
     <section id="about_me" class="container-fluid p-2 p-md-5">
         <h2 class="py-2 px-5 text-center text-lg-left">About Me</h2>
         <div class="row flex-column flex-lg-row justify-content-around align-items-center">
-            <div class="col-12 col-lg-6 order-2 order-lg-1 about-me-text py-2">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 about-me-text py-2 px-5 px-lg-0">
                 <p>I have a lifelong passion for understanding and <strong>solving problems</strong>. Whether coding,
                     simulations or puzzles, I am driven to dig in and understand what is going on and loves when the
                     <strong>lightbulb</strong> goes on and I discover the solution or the missing piece. I love
@@ -119,12 +117,71 @@
     <hr />
     <section id="projects" class="container-fluid p-2 p-md-5">
         <h2 class="py-2 px-5 text-center text-lg-left">Projects</h2>
-
+        <article id="apple_clone" class="row d-flex justify-content-center align-items-center py-5">
+            <div class="col-12 col-lg-4 text-center">
+                <h3>Apple Clone</h3>
+                <p>Clone of Apple main website.<br>
+                    Technologies Used: HTML, CSS</p>
+                <a class="project-link" href="https://musing-spence-ab9a06.netlify.app/">Checkout the Site <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="col-8 col-lg-5">
+                <a href="https://musing-spence-ab9a06.netlify.app/">
+                    <img class="img-responsive project-img rounded" src="img/apple_clone.PNG"
+                        alt="apple clone screenshot">
+                </a>
+            </div>
+        </article>
+        <article id="newsweek_clone" class="row d-flex justify-content-center align-items-center py-5">
+            <div class="col-12 col-lg-4 text-center">
+                <h3>Newsweek Clone</h3>
+                <p>Clone of Newsweek main website.<br>
+                    Technologies Used: HTML, CSS, Bootstrap</p>
+                <a class="project-link" href="https://adoring-jones-5d5c6a.netlify.app/">Checkout the Site <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="col-8 col-lg-5">
+                <a href="https://adoring-jones-5d5c6a.netlify.app/">
+                    <img class="img-responsive project-img rounded" src="img/Newsweek_clone.PNG"
+                        alt="apple clone screenshot">
+                </a>
+            </div>
+        </article>
+        <article id="airbnb_clone" class="row d-flex justify-content-center align-items-center py-5">
+            <div class="col-12 col-lg-4 text-center">
+                <h3>Airbnb News Clone</h3>
+                <p>Clone of Airbnb News main website.<br>
+                    Technologies Used: HTML, CSS, Bootstrap</p>
+                <a class="project-link" href="https://trusting-lumiere-47b7d0.netlify.app/">Checkout the Site <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="col-8 col-lg-5">
+                <a href="https://trusting-lumiere-47b7d0.netlify.app/">
+                    <img class="img-responsive project-img rounded" src="img//airbnb_clone.PNG"
+                        alt="apple clone screenshot">
+                </a>
+            </div>
+        </article>
     </section>
+    <hr />
+    <section id="resume" class="container-fluid p-2 p-md-5 my-5 my-lg-2">
+        <h2 class="py-2 px-5 text-center text-lg-left">Resume</h2>
+        <div class="d-flex justify-content-center">
+            <div class="text-center resume-text">
+                <h3>Want to Learn More</h3>
+                <a href="./doc/LINDSEY Joelle - June 2021.pdf" download>Download my resume</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact_me" class="container-fluid p-2 p-md-5">
+        <h2 class="py-2 px-5 text-center text-lg-left">Contact Me</h2>
+        <ul class="d-flex flex-column contact-info px-5 mx-5">
+            <li>Joelle Lindsey</li>
+            <li><a href="mailto:joellelindsey28@gmail.com">email: joellelindsey28@gmail.com</a></li>
+        </div>
+    </footer>
     <!-- jQuery first, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

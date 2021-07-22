@@ -44,6 +44,30 @@ header {
     
 }
 
+.project-img{
+    width: 100%;
+}
+
+.project-link{
+    color: black;
+}
+
+.resume-text a{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.contact-info{
+    list-style: none;
+}
+.contact-info a{
+    color: white;
+}
+
 hr{
     height: 1px;
     margin: 0 90px;
